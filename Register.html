@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Account</title>
+    <link rel="icon" href="images/CAS.svg">
+    <link rel="stylesheet" href="css/Register.css">
+  </head>
+  <body>
+    <form class="signup-form" action="/register" method="post">
+
+      <!-- form header -->
+      <div class="form-header">
+        <h1>Create Account</h1>
+      </div>
+
+      <!-- form body -->
+      <div class="form-body">
+
+        <!-- Firstname and Lastname -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="firstname" class="label-title">First name *</label>
+            <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+          </div>
+          <div class="form-group right">
+            <label for="lastname" class="label-title">Last name</label>
+            <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email" class="label-title">Email*</label>
+          <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+        </div>
+
+        <!-- Passwrod and confirm password -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="password" class="label-title">Password *</label>
+            <input type="password" id="password" class="form-input" placeholder="enter your password" required="required">
+          </div>
+          <div class="form-group right">
+            <label for="confirm-password" class="label-title">Confirm Password *</label>
+            <input type="password" class="form-input" id="confirm-password" placeholder="enter your password again" required="required">
+          </div>
+        </div>
+
+        <!-- Gender and Hobbies -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label class="label-title">Gender:</label>
+            <div class="input-group">
+              <label for="male"><input type="radio" name="gender" value="male" id="male"> Male</label>
+              <label for="female"><input type="radio" name="gender" value="female" id="female"> Female</label>
+            </div>
+          </div>
+          <div class="form-group right">
+            <label class="label-title">Account Type*</label>
+            <div class="input-group">
+                <label for="Admin"><input type="radio" name="account" value="Admin" id="admin"> Admin</label>
+                <label for="Employee"><input type="radio" name="account" value="Employee" id="employee"> Employee</label>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="horizontal-group">
+          <div class="form-group left" >
+            <label class="label-title">City</label>
+            <select class="form-input" id="level" >
+              <option value="A">Panjim</option>
+              <option value="B">Vasco</option>
+              <option value="C">Mapusa</option>
+              <option value="D">Margao</option>
+              <option value="E">Siolim</option>
+              <option value="F">Ponda</option>
+              <option value="G">Marcel</option>
+              <option value="H">Bicholim</option>
+              <option value="I">Old Goa </option>
+              <option value="J">Porvorim</option>
+              <option value="K">Tivim</option>
+              <option value="L">Pernem</option>
+              <option value="M">Usgao</option>
+            </select>
+          </div>
+          <div class="form-group right">
+            <label for="Contact" class="label-title">Contact*</label>
+            <input type="Contact" id="Contact" class="form-input" placeholder="enter your mobile number" required="required" minlength="10">
+          </div>
+        </div>
+
+      <!-- form-footer -->
+      <div class="form-footer">
+        <span>* required</span>
+        <button type="submit" class="btn">Create</button>
+      </div>
+    </form>
+
+    <!-- Password validation -->
+<script>
+  var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confirm-password");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script>
+
+  </body>
+</html>

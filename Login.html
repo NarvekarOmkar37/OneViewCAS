@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/CAS.svg">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="css//LoginScreen/LoginPage.css">
+        <link rel="stylesheet" type="text/css" href="css//LoginScreen/Button.css">
+        <link rel="stylesheet" href="css//LoginScreen/LoginBox.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+            
+        </head>
+        <body>
+            
+            <div class="illust">
+                <img class="image1" src="images/login/Main_image.png" alt="">
+                <img class="image2" src="images/login/Rectangle 7.png" alt="">
+                <img class="dot1" src="images/login/Dot 1.png" alt=""> 
+                <img class="dot2" src="images/login/dot 2.png" alt="">
+                <img class="logo" src="images/login/logo.svg" alt="">
+            </div>
+
+            <h2 id="header">Login</h2>
+                
+            <div class="loginbox">
+                
+                
+                <form class="login_form" name="form" action="homepage.php" method="post"  onsubmit="return validated(); ">
+                
+                    <input autocomplete="off" type="text" name="Username" placeholder="  Username">
+                <div id="email_error">Enter a valid Email ID!</div>
+
+                
+                    <input type="password" name="password" placeholder=" Password">
+                    <div id="pass_error">Invalid Password!</div>
+
+                    <button type="submit" value="Login">Login</button>
+                    <br>
+                    <!-- <a href="#">Lost your password?</a><br> -->
+                </form>
+                
+            </div>
+            <div class="switch-button"><span class="active"></span>
+                <button class="switch-button-case left active-case">Employee</button>
+                <button class="switch-button-case right">Admin</button>
+            </div>
+        
+            <script src="js/LoginScreen/buttonToggle.js"></script>
+            <script src="js//LoginScreen/loginValidation.js"></script>
+        </body>
+</html>

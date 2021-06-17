@@ -1,0 +1,140 @@
+body{ 
+    font-family: 'Montserrat', sans-serif;
+  }
+  .file-uploader {
+  position: absolute;
+  top: 18%;
+  left: 34.6%;
+  width: 500px;
+    background-color: #ececec;
+    border-radius: 5px;
+    color: #535353;
+  }
+  
+  .file-uploader__message-area {
+    font-size: 14px;
+    padding: 1em;
+    text-align: center;
+    color: #1f1e1e;
+  }
+  
+  .file-list {
+    background-color: #d8d8d8;
+    font-size: 14px;}
+  
+  .file-list__name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .file-list li {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 0.5em;
+    border: none;
+    overflow: hidden;
+  }
+  
+  .removal-button {
+    width: 20%;
+    border: none;
+    background-color: #242222;
+    color: rgb(252, 65, 65);
+  }
+  .removal-button::before {
+    content: "X";
+  }
+  .removal-button:focus {
+    outline: 0;
+  }
+  
+  .file-chooser {
+    padding: 1em;
+    transition: background-color 1s, height 1s;
+  }
+  .file-chooser p {
+  font-size: 15px;
+    padding-top: 1em;
+  }
+  
+  .file-uploader {
+    max-width: 400px;
+    height: auto;
+    margin: 2em auto;
+  }
+  .file-uploader * {
+    display: block;
+  }
+  .file-uploader input[type=submit] {
+    margin-top: 2em;
+    float: right;
+  }
+  
+  .file-list {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  
+  .file-list__name {
+    max-width: 70%;
+    float: left;
+  }
+  
+  .removal-button {
+    display: inline-block;
+    height: 100%;
+    float: right;
+  }
+  
+  .file-chooser {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+  
+  .file-chooser__input {
+    margin: 0 auto;
+  }
+  
+  .file-uploader__submit-button {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 1em;
+    background-color: #f7c940;
+    color: white;
+  }
+  .file-uploader__submit-button:hover {
+    background-color: #ffc107;
+  }
+  
+  .file-list li:after, .file-uploader:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .hidden input {
+    display: none;
+  }
+  
+  .error {
+    background-color: #3a3939;
+    color: white;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+

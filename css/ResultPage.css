@@ -1,0 +1,113 @@
+body{
+    font-family: montserrat;
+    
+}
+.user
+{
+position: absolute;
+width: 35px;
+height: 35px;
+left: 74.25%;
+top: 4.34%;
+}
+.admin{
+    position: absolute;
+    left: 300%;
+    top: -25.35%;
+    font-weight: 600;
+    font-size: 15px;
+    color:#494646 ;
+}
+#setting{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 42%;
+    left: 465%;
+}
+#user{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 169.25%;
+    top: 4.34%;
+    }
+
+h3{
+    position: relative;
+    left: 4%;
+    top: 4.74%;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #494646;
+}
+h5{
+    position: relative;
+    left: 4%;
+    margin-top: 0.1%;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #494646;
+}
+#title{
+    position: relative;
+    width: 92%;
+    height: 150px;
+    left: 4%;
+    margin-top: 2.3%;
+}
+
+.stats{
+    margin-top: 6%;
+    position: absolute;
+    left: 4%;
+
+}
+
+#stat1{
+    width: 262px;
+    height: 120px;
+}
+#stat2{
+    position: relative;
+    width: 262px;
+    height: 120px;
+    left: 5.6%;
+    
+}
+#stat3{
+    position: relative;
+    width: 262px;
+    height: 120px;
+    left: 11.6%;
+}
+#stat4{
+position: relative;
+    width: 262px;
+    height: 120px;
+    left: 17%;
+}
+
+#Overview{
+    position: relative;
+    left: 4%;
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #494646;
+}
+
+.square{
+    position: relative;
+    width: 92%;
+    height: 400px;
+    left: 4%;
+    margin-top: 13.3%;
+    background-color: rgb(231, 227, 227);
+    border-radius: 20px;
+}

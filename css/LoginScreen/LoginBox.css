@@ -1,0 +1,97 @@
+body{
+    font-family: montserrat;
+}
+#header{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 110px;
+    left: 772px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bolder;
+}
+.loginbox{
+    position: relative;
+    top: 260px;
+    left: 770px;
+    width: 233px;
+    height: 89px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    
+    color: #FFFFFF;
+
+}
+
+.loginbox a{
+    position: relative;
+    left: 140px;
+    top:-18px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 4px 10px 20px 25px;
+    padding: 10px 20px;
+    font-size: 10px;
+    color: rgb(255, 255, 255); 
+}
+
+.loginbox a:hover
+{
+    color:#FFC727;
+}
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+    position: relative;
+    border: none;
+    border-bottom: 0.5px solid #A8A7A7;
+    background: transparent;
+    margin-bottom: 17px;
+    outline: none;
+    height: 33px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 310px;
+}
+
+
+
+.login_form button{
+    position:relative;
+    width: 160px;
+    left: 155px;
+    margin-bottom: 10px;
+    margin-top: 15px; 
+    height: 50px;
+    background: #FFC727;
+    color: #494646;
+    font-size: 18px;
+    border:none;
+    border-radius: 30px;
+	transition: .3  s;
+    text-align: center;
+}
+
+.login_form button:hover{
+    cursor: pointer;
+    background:#ffc107;
+    color: #000;
+}
+
+.login_form #email_error, .login_form #pass_error{
+	margin-top: -12px;
+    margin-left: -12px;
+	width: 181px;
+	font-size: 13px;
+	color: #C62828;
+    background:transparent; 
+	text-align: center;
+	padding: 0px 8px;
+	display: none;
+}
+

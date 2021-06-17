@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>OneView</title>
+        <link rel="icon" href="images/CAS.svg">
+        <link rel="stylesheet" href="css//HomePage/home.css">
+        <link rel="stylesheet" href="css//HomePage/navbar.css">
+        <link rel="stylesheet" href="css/fonts/fonts.css">
+        <!-- The main CSS file -->
+        <link href="css/HomePage/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/HomePage/uploadOverlay.css">
+
+        
+
+    </head>
+    <body>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a id="logout" href="Login.html">Logout</a>
+            <div class="animation start-home"></div>
+            <img class="logo" src="images/logo.png" alt="">
+          </nav>
+        <div class="header">
+            <h1 id="head1">DROP THE</h1>
+            <h1 id="head2">COMPLAINTS!</h1>
+        </div>
+        <div>
+            
+            <img class="illust1" src="images/Homepage/illust2.png" alt="">
+            <img class="illust" src="images/Homepage/illust.png" alt="">
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+            <div class="overlay-content">
+              
+                
+                <form method="post" class="file-uploader" action="homepage.php" enctype="multipart/form-data">
+                    <div class="file-uploader__message-area">
+                      <p>Select a file to upload</p>
+                    </div>
+                    <div class="file-chooser">
+                      <input class="file-chooser__input" type="file" name="upl" multiple>
+                    </div>
+                    <!-- <button id="btn-file-reset-id" type="button" onClick="this.form.reset()"> Reset file</button> -->
+
+                    <input class="file-uploader__submit-button" type="submit" value="UPLOAD">
+                  </form>          
+            </div>
+          </div>
+        <button class="button" onclick="openNav()">UPLOAD</button>
+            
+
+          
+
+            <script src="Js/Homepage/overlay.js" ></script>
+             <script src="Js/Homepage/jquery.min.js"></script>
+
+
+             <!-- main JS file -->
+             <script src="Js/Homepage/script.js"></script>
+        
+    </body>
+</html>

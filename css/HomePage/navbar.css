@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+body {
+	font-family: 'Montserrat';
+	background:transparent;
+}
+nav{
+	position: relative;
+	font-weight: 500;
+	margin: 26px 0px 0px 70px;
+	width: 570px;
+	height: 38px;
+	background: transparent;
+	border-radius: 30px;
+	
+}
+nav a{
+	font-size: 15px;
+	/* text-transform: uppercase; */
+	color:#494646;
+	text-decoration: none;
+	line-height: 38px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+nav .animation{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	background: #FFC727;
+	border-radius: 30px;
+	transition: all .5s ease 0s;
+}
+nav a:nth-child(1){
+	width: 100px;
+	
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 100px;
+	left: 0;
+}
+nav a:nth-child(2){
+	width: 110px;
+}
+nav a:nth-child(2):hover~.animation{
+	width: 110px;
+	left: 100px;
+	font-weight: 550;
+}
+nav a:nth-child(3){
+	width: 110px;
+}
+nav a:nth-child(3):hover~.animation{
+	width: 123px;
+	left: 210px;
+}
+nav a:nth-child(4){
+	width: 160px;
+}
+nav a:nth-child(4):hover~.animation{
+	width: 120px;
+	left: 350px;
+}
+.logo{
+position: relative;
+width: 144px;
+height: 35px;
+left: 1120px;
+top: -36px;
+}

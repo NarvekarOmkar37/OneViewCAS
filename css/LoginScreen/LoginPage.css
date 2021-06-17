@@ -1,0 +1,42 @@
+body{
+    background: #494646;
+}
+.image1{
+    position: absolute;
+    width: 610.28px;
+    height: 630.78px;
+    left: -10.66px;
+    top: -10.3px;
+}
+  .image2{
+    position: absolute;
+width: 845px;
+height: 189px;
+left: 480.83px;
+top: 474px;
+  }
+.dot1{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 453px;
+}
+.dot2{
+    position: absolute;
+width: 140px;
+height: 100px;
+left: 1130px;
+top: -10px;
+}
+.logo{
+    position: absolute;
+width: 482px;
+height: 120px;
+left: 40px;
+top: 525px;
+}
+
+
+
+
